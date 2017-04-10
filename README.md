@@ -5,7 +5,7 @@ This is my submission for Project 4 ('Explore and Summarise Data') on Udacity's 
 
 The intended project outcomes were to demonstrate the student's ability to:
 - Understand the distribution of a variable and to check for anomalies and outliers
-- Learn how to quantify and visualize individual variables within a data set by using appropriate plots such as scatter plots, histograms, bar charts, and box plots
+- Learn how to quantify and visualise individual variables within a data set by using appropriate plots such as scatter plots, histograms, bar charts, and box plots
 - Explore variables to identify the most important variables and relationships within a data set before building predictive models; calculate correlations, and investigate conditional means
 - Learn powerful methods and visualisations for examining relationships among multiple variables, such as reshaping data frames and using aesthetics like colour and shape to uncover more information
 
