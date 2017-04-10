@@ -788,7 +788,7 @@ explore it further.
 
 ------
 
-## Contact author
+## Contact details
 
 **Mark Bannister**  
 E: [mspbannister\@gmail.com](mailto:mspbannister\@gmail.com)  
