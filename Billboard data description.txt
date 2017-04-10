@@ -1,0 +1,128 @@
+'billboard_data.csv'
+
+Author: Mark Bannister
+
+Description
+
+A data set containing the musical features and chart performance of every Billboard Hot 100 number one from August 1958 to April 2017 (with omissions detailed below). The tracks were compiled manually on a Spotify playlist (spotify:user:mark_bannister:playlist:51Yu2cza1ysUBzatnA3xsP). The musical analysis data for each track were then sourced from Spotify's API, while the chart performance data were scraped from Wikipedia using a Python script. The two data sets were combined using fuzzy string matching with the Python fuzzywuzzy library.
+
+Format
+
+A csv file with 1069 observations and 30 variables:
+
+Variables
+
+title
+The title of the track. Note the use of double quotation marks around each title.
+
+artist_1 / artist_2 / artist_3 / artist_4
+The artists credited on the track, with the lead artist as 'artist_1' and featured artists in subsequent columns as applicable.
+
+num_artists
+The total number of artists on the track.
+
+entry_1 / entry_2 / entry_3 / 
+The first date of each consecutive period the track was at number one, in the format [Month] [Day] [Year] (as a text string).
+
+weeks_1 / weeks_2 /weeks_3
+The number of weeks in each consecutive period the track was at number one.
+
+acousticness
+A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic.
+
+danceability
+Danceability describes how suitable a track is for dancing based on a combination of musical elements including tempo, rhythm stability, beat strength, and overall regularity. A value of 0.0 is least danceable and 1.0 is most danceable.
+
+duration_ms
+The duration of the track in milliseconds (ms).
+
+energy
+Energy is a measure from 0.0 to 1.0 and represents a perceptual measure of intensity and activity. Typically, energetic tracks feel fast, loud, and noisy. For example, death metal has high energy, while a Bach prelude scores low on the scale. Perceptual features contributing to this attribute include dynamic range, perceived loudness, timbre, onset rate, and general entropy.
+
+explicit
+A boolean indicating whether the track contains explicit lyrics or not (as labelled by Spotify). 
+
+instrumentalness
+Predicts whether a track contains no vocals. "Ooh" and "aah" sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly "vocal". The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0.
+
+key
+The root note of the key the track is in (i.e. "A", "A♯/Bb", "B", "C", "C♯/Db", "D", "D♯/Eb", "E", "F", "F♯/Gb", "G", or "G♯/Ab").
+
+liveness
+Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.
+
+loudness
+The overall loudness of a track in decibels (dB). Loudness values are averaged across the entire track and are useful for comparing relative loudness of tracks. Loudness is the quality of a sound that is the primary psychological correlate of physical strength (amplitude). Values typical range between -60 and 0 db.
+
+mode
+Mode indicates the modality (major or minor) of a track, the type of scale from which its melodic content is derived.
+
+speechiness
+Speechiness detects the presence of spoken words in a track. The more exclusively speech-like the recording (e.g. talk show, audio book, poetry), the closer to 1.0 the attribute value. Values above 0.66 describe tracks that are probably made entirely of spoken words. Values between 0.33 and 0.66 describe tracks that may contain both music and speech, either in sections or layered, including such cases as rap music. Values below 0.33 most likely represent music and other non-speech-like tracks.
+
+tempo
+The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
+
+time_signature
+An estimated overall time signature of a track. The time signature (meter) is a notational convention to specify how many beats are in each bar (or measure) (integers 1-5).
+
+valence
+A measure from 0.0 to 1.0 describing the musical positiveness conveyed by a track. Tracks with high valence sound more positive (e.g. happy, cheerful, euphoric), while tracks with low valence sound more negative (e.g. sad, depressed, angry).
+
+analysis_url
+An HTTP URL to access the full audio analysis of this track. An access token is required to access this data.
+
+track_href
+A link to the Web API endpoint providing full details of the track.
+
+id
+The Spotify ID for the track.
+
+uri
+The Spotify URI for the track.
+
+Notes:
+- Where possible I have compiled the playlist using the explicit versions of tracks, rather than the clean version.
+- Where possible I have compiled the playlist using the single version of tracks, rather than the album version.
+
+Omitted / replaced tracks:
+
+1965
+"Over and Over" - The Dave Clark Five (omitted)
+
+1966
+"Good Lovin" - The Young Rascals (replaced with karaoke version)
+"Poor Side of Town" - Johnny Rivers (replaced with karaoke version)
+
+1973
+"The Morning After" - Maureen McGovern (replaced with karaoke version)
+
+1974
+"Billy Don't Be A Hero" - Bo Donaldson and the Heywoods (replaced with Paper Lace version)
+
+1987
+"Shakedown - Bob Segar" (replaced with tribute act version)
+
+1991
+"Good Vibrations" - Marky Mark and the Funky Bunch (replaced with karaoke version)
+
+2000
+"With Arms Wide Open" - Creed (replaced with 'New Version With Strings')
+
+2006
+"Do I Make You Proud?" - Taylor Hicks (omitted)
+
+2012
+"We Are Never Ever Getting Back Together" - Taylor Swift (replaced with karaoke version)
+
+2014
+"Shake It Off" - Taylor Swift (replaced with karaoke version)
+"Blank Space" - Taylor Swift (replaced with karaoke version)
+
+2015
+"Bad Blood" - Taylor Swift (replaced with karaoke version)
+
+Sources:
+- https://developer.spotify.com/web-api/
+- https://developer.spotify.com/web-api/get-several-audio-features/
+- https://en.wikipedia.org/wiki/List_of_Billboard_number-one_singles
