@@ -24,6 +24,10 @@ common; and
 * To what extent a number one single's performance (in terms of total
 weeks at number one) can be explained by any of its musical attributes.
 
+I will report my findings in a 'stream of consciousness' style, digging deeper 
+into trends as they appear, before presenting a selection of the most 
+significant results in a final 'Key findings' section.
+
 ------
 
 ## Chart performance
@@ -717,7 +721,9 @@ trend that sees two or more artists collaborate together on one track.
 ### Musical analysis
 ![](Billboard_analysis__100417__files/figure-html/Plot_Two-1.png)<!-- -->
 
-I found this chart fascinating for a number of reasons:
+This chart depicts the (relatively) recent increase in the use of explicit 
+lyrics in Hot 100 number ones, which I found fascinating for a number of 
+reasons:
 
 * The trend is open to all sorts of interpretations, from those who might want 
 to opine on the change in morals over time to those who seek confirmation that 
