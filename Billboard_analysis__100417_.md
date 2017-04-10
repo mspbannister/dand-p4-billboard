@@ -80,7 +80,7 @@ time during which the single was number one.*
 
 The above charts explore this trend further, demonstrating a downward trend in 
 the number of unique number ones per year following a general high in the 1970s 
-(with an all time peak in 1975^1^). This surprised me, because the general wisdom 
+(with an all time peak in 1975<sup>1</sup>). This surprised me, because the general wisdom 
 is that the barriers to making and releasing music have been getting lower over
 time, while streaming services like Spotify and Apple Music give fans 
 unprecedented access to millions of records. And yet, we seem to be 
@@ -94,7 +94,7 @@ third-entry number ones, with "Bleeding Love" (Leona Lewis), "Live Your Life"
 (T.I. featuring Rihanna) and "Whatever You Like" (also T.I.) clinching the top 
 spot three times each, for a total of four, six and seven weeks, respectively.
 
-^1^ Note that the data set counts double A-side records as separate releases, 
+<sup>1</sup> Note that the data set counts double A-side records as separate releases, 
 therefore 1975 has 36 unique number ones because of "I'm Sorry" and "Calypso" by 
 John Denver. If we consider this to be one release, both 1974 and 1975 are tied 
 at 35 unique number ones.
@@ -365,7 +365,7 @@ in the above chart is unsurprising.
 
 By plotting loudness over time, we can see that number one singles have followed 
 a [well-documented trend](http://www.bbc.co.uk/news/entertainment-arts-35250557) 
-in getting louder over the years^2^. It is interesting to note however that the 
+in getting louder over the years<sup>2</sup>. It is interesting to note however that the 
 change was not gradual, but rather fluctuated around -10 dB before increasing 
 rapidly from 1995 to 2003. The trend has since stabilised, perhaps because at 
 approximately -5 dB, there isn't much room for an increase without producing 
@@ -374,7 +374,7 @@ unpleasant distortion.
 While certainly more attention-grabbing, louder tracks tend to have lower 
 dynamic ranges - an arguably less 'musical' outcome. 
 
-^2^ I should note that there will be additional variance present in the data due 
+<sup>2</sup> I should note that there will be additional variance present in the data due 
 to some audio analysis unavoidably being based on recent remasters of the 
 original recordings.
 
