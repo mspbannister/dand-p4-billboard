@@ -1,8 +1,8 @@
-# | The Billboard Hot 100:  
-| Exploring Six Decades of Number One Singles   
+# The Billboard Hot 100: <br/>
+Exploring Six Decades of Number One Singles   
 
-Mark Bannister  
-April 2017  
+## Mark Bannister  
+## April 2017  
 
 
 
