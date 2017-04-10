@@ -10,5 +10,7 @@ The intended project outcomes were to demonstrate the student's ability to:
 - Learn powerful methods and visualisations for examining relationships among multiple variables, such as reshaping data frames and using aesthetics like colour and shape to uncover more information
 
 List of files:
-- 'Billboard_analysis__100417.html': HTML output of project submission file
+- 'Billboard_analysis__100417_.md': Markdown output of project submission file
+- 'Billboard_analysis__100417__files': Plot images for use with 'Billboard_analysis__100417_.md'
+- 'Billboard_analysis__100417_.html': HTML output of project submission file
 - 'Billboard data description.txt': description of the underlying data set and variables
