@@ -767,7 +767,7 @@ This investigation was very much a labour of love, with a long data gathering
 and wrangling process paying off in a big way when I was finally able to dig in 
 to the data and start exploring. The process involved:
 
-* Manually compiling a Spotify playlist of every Hot 100 number one;
+* Manually compiling [a Spotify playlist of every Hot 100 number one](https://open.spotify.com/user/mark_bannister/playlist/51Yu2cza1ysUBzatnA3xsP);
 * Using Spotify's API to access musical data for every track;
 * Scraping chart performance data from Wikipedia; and
 * Marrying the two data sets together using fuzzy string matching.
