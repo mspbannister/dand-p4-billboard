@@ -14,3 +14,6 @@ List of files:
 - 'Billboard_analysis__100417__files': Plot images for use with 'Billboard_analysis__100417_.md'
 - 'Billboard_analysis__100417_.html': HTML output of project submission file
 - 'Billboard data description.txt': description of the underlying data set and variables
+- 'Spotify_API.py': Python script for collecting track information from Spotify API
+- 'Wikipedia_scraping.py': Python script for scraping Billboard Hot 100 data from Wikipedia
+- 'Matching_datasets.py': Python script for compiling Spotify and Wikipedia data sets
