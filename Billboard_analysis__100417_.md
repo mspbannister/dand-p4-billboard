@@ -265,7 +265,7 @@ version in our data set is 9 minutes 47 seconds long.
 
 By plotting track duration over time, we can see that number one singles have 
 become longer on average over time. However, this trend has been reversing since 
-2009, with average durations recently declining below the long term mean of 3.8 
+1999, with average durations recently declining below the long term mean of 3.8 
 minutes (depicted by the dashed red line). Perhaps an indication of 
 [shortening attention spans?](http://www.telegraph.co.uk/science/2016/03/12/humans-have-shorter-attention-span-than-goldfish-thanks-to-smart/)
 
